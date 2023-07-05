@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome Cdn Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <title>Attendance Dashboard|By Programming With Rohit</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li>
+            <a href="#" class="logo">
+              <img src="LOGO.png" />
+              <span class="nav-item">Admin</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-menorah"></i>
+              <span class="nav-item">Dashboard</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fas fa-comment"></i>
+              <span class="nav-item">Message</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fas fa-database"></i>
+              <span class="nav-item">Reports</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-chart-bar"></i>
+              <span class="nav-item">Attendance</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-cog"></i>
+              <span class="nav-item">Settings</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="logout">
+              <i class="fas fa-sign-out-alt"></i>
+              <span class="nav-item">Log Out</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <section class="main">
+        <div class="main-top">
+          <h1>Attendance</h1>
+          <i class="fas fa-user-cog"></i>
+        </div>
+        <div class="users">
+          <div class="card">
+            <img src="img14.jpg" />
+            <h4>Rohit</h4>
+            <p>UI/UX Designer</p>
+            <div class="per">
+              <table>
+                <tr>
+                  <td><span>95%</span></td>
+                  <td><span>80%</span></td>
+                </tr>
+                <tr>
+                  <td>Month</td>
+                  <td>Year</td>
+                </tr>
+              </table>
+            </div>
+            <button>Profile</button>
+          </div>
+          <div class="card">
+            <img src="img11.jpg" />
+            <h4>Aakash</h4>
+            <p>Programmer</p>
+            <div class="per">
+              <table>
+                <tr>
+                  <td><span>92%</span></td>
+                  <td><span>84%</span></td>
+                </tr>
+                <tr>
+                  <td>Month</td>
+                  <td>Year</td>
+                </tr>
+              </table>
+            </div>
+            <button>Profile</button>
+          </div>
+          <div class="card">
+            <img src="img12.jpg" />
+            <h4>Awantika</h4>
+            <p>Tester</p>
+            <div class="per">
+              <table>
+                <tr>
+                  <td><span>90%</span></td>
+                  <td><span>82%</span></td>
+                </tr>
+                <tr>
+                  <td>Month</td>
+                  <td>Year</td>
+                </tr>
+              </table>
+            </div>
+            <button>Profile</button>
+          </div>
+          <div class="card">
+            <img src="img13.jpg" />
+            <h4>Sahil</h4>
+            <p>Web Developer</p>
+            <div class="per">
+              <table>
+                <tr>
+                  <td><span>93%</span></td>
+                  <td><span>87%</span></td>
+                </tr>
+                <tr>
+                  <td>Month</td>
+                  <td>Year</td>
+                </tr>
+              </table>
+            </div>
+            <button>Profile</button>
+          </div>
+          </div>
+          <se class="attendance">
+            <div class="attendance-list">
+                <h1>Attendance-List</h1>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Depart</th>
+                            <th>Date</th>
+                            <th>Join Time</th>
+                            <th>Log-Out Time</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>       
+                            <td>01</td>
+                            <td>Rohit Kapse</td>
+                            <td>UI Designer</td>
+                            <td>06-7-2023</td>
+                            <td>09:00AM</td>
+                            <td>04:00PM</td>
+                            <td><button>View</button></td>
+                        </tr>
+
+                        <tr class="active">       
+                            <td>02</td>
+                            <td>Aakash Taywade</td>
+                            <td>Programmer</td>
+                            <td>08-07-2023</td>
+                            <td>10:30AM</td>
+                            <td>05:00PM</td>
+                            <td><button>View</button></td>
+                        </tr>
+
+                        <tr>       
+                            <td>03</td>
+                            <td>Awantika Roy</td>
+                            <td>Tester</td>
+                            <td>09-4-2023</td>
+                            <td>08:00AM</td>
+                            <td>05:00PM</td>
+                            <td><button>View</button></td>
+                        </tr>
+
+                        <tr>       
+                            <td>04</td>
+                            <td>Sahil Sharma</td>
+                            <td>Web Developer</td>
+                            <td>06-22-2022</td>
+                            <td>10:30AM</td>
+                            <td>03:00PM</td>
+                            <td><button>View</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+          </se>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
